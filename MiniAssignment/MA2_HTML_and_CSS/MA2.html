@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!-- ?? initial-scale=1 neccessary??? (compared to given base html)-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+
+  <title>Mini Assignment 2</title>
+  
+  <style>
+    #name-header {
+      /* border: pink 5px solid;*/   /*right border not showing? despite that the box model in live server shows the border*/
+      color: white;
+      background-color: #a47053;  
+
+      width: 100%;
+      height: 80px;
+      line-height: 80px;
+
+      text-align: center;
+      position: fixed;
+      top: 0;
+    }
+
+    /* .box-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    } */
+
+    #column-container {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-around;
+    }
+
+    .column {
+      /* Define how columns are alid out inside the column-container */
+      flex: 1 150px;
+
+      /* Define how boxes are laid out inside each column*/
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+    }
+
+    .box {
+      height: 150px;
+      width: 80%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    #col1>.box{
+      background-color: #efca66;
+    }
+
+
+    #col2>.box {
+      background-color: #ecdab9;
+    }
+
+
+    #col3>.box {
+      background-color: #cec3c8;
+    }
+
+    
+    
+    /* #blue-col > .box{
+      background-color: blue;
+    }
+
+    #yellow-col > .box{
+      background-color: yellow;
+    }
+
+    #green-col > .box{
+      background-color: green;
+    } */
+  </style>
+</head>
+
+<body>
+  <h1 id="name-header">Chuan-Hsin(Cindy) Chen</h1>
+  <div id="column-container">
+    <div class="column" id="col1">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+    <div class="column" id="col2">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+    <div class="column" id="col3">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </div>
+
+  <table>
+    <caption>Contact Info:</caption>
+    <tr>
+      <th>Email:</th>
+      <td>chen.chuanh@northeastern.edu</td>
+    </tr>
+    <tr>
+      <th>Linkedin:</th>
+      <td>xxxxx</td>
+    </tr>
+    <tr>
+      <th>Phone:</th>
+      <td>xxxxxx</td>
+    </tr>
+
+
+    </tbody>
+
+  </table>
+
+
+
+
+  <!-- <p>
+    I'm baby umami yuccie truffaut, polaroid subway tile banh mi lo-fi thundercats post-ironic trust fund organic selfies art party. Dreamcatcher palo santo yr, franzen whatever chartreuse messenger bag. Pour-over truffaut selvage hella knausgaard neutra cloud bread iceland. Hot chicken hammock enamel pin, VHS farm-to-table vinyl everyday carry skateboard tbh kogi church-key waistcoat celiac. Fixie cronut trust fund heirloom, fashion axe jianbing live-edge adaptogen.
+  </p>
+  <p>
+  Etsy quinoa pabst, vaporware raclette iceland letterpress paleo neutra air plant hammock sustainable microdosing. Pour-over chartreuse vinyl put a bird on it hoodie austin crucifix taxidermy you probably haven't heard of them master cleanse franzen intelligentsia. Iceland man braid tofu vice, authentic flannel palo santo hammock. Sustainable tofu typewriter, hexagon pickled banh mi whatever migas franzen. Heirloom pickled tbh small batch squid affogato pabst cliche PBR&B try-hard. Truffaut selvage hella, slow-carb VHS vinyl yuccie schlitz tacos kickstarter tattooed scenester tofu.
+  </p><p>
+  Messenger bag live-edge 8-bit, listicle pug pour-over kickstarter squid tattooed brooklyn. Irony portland cornhole banjo listicle salvia la croix taxidermy meditation prism. Everyday carry before they sold out subway tile aesthetic craft beer locavore selfies, heirloom forage. Four loko single-origin coffee normcore, tacos art party VHS hot chicken keytar flexitarian hammock fingerstache semiotics keffiyeh. Mustache af twee bitters freegan forage williamsburg blue bottle pinterest vinyl offal YOLO pork belly godard gastropub. Lo-fi succulents organic bicycle rights tattooed etsy kickstarter marfa ramps normcore quinoa live-edge ethical pork belly tousled. Aesthetic mustache selvage, meditation tacos cliche umami mlkshk four dollar toast single-origin coffee before they sold out hashtag readymade tbh godard.
+  </p><p>
+  Vegan mixtape brooklyn try-hard, edison bulb lomo live-edge taiyaki gentrify. Pitchfork mlkshk mustache shabby chic jean shorts ennui iceland kogi. 8-bit distillery everyday carry intelligentsia. Everyday carry PBR&B cornhole jean shorts.
+  </p><p>
+  Man bun +1 tattooed yuccie skateboard lomo. You probably haven't heard of them vice shaman hot chicken, squid tofu cliche chia heirloom tote bag. Hella shaman thundercats cardigan. Vice fam heirloom raw denim, vinyl fixie hot chicken pok pok roof party literally disrupt skateboard. Palo santo slow-carb vegan cray bitters mustache kinfolk retro tote bag biodiesel small batch flexitarian.
+  </p>
+  <p>
+    I'm baby umami yuccie truffaut, polaroid subway tile banh mi lo-fi thundercats post-ironic trust fund organic selfies art party. Dreamcatcher palo santo yr, franzen whatever chartreuse messenger bag. Pour-over truffaut selvage hella knausgaard neutra cloud bread iceland. Hot chicken hammock enamel pin, VHS farm-to-table vinyl everyday carry skateboard tbh kogi church-key waistcoat celiac. Fixie cronut trust fund heirloom, fashion axe jianbing live-edge adaptogen.
+  </p>
+  <p>
+  Etsy quinoa pabst, vaporware raclette iceland letterpress paleo neutra air plant hammock sustainable microdosing. Pour-over chartreuse vinyl put a bird on it hoodie austin crucifix taxidermy you probably haven't heard of them master cleanse franzen intelligentsia. Iceland man braid tofu vice, authentic flannel palo santo hammock. Sustainable tofu typewriter, hexagon pickled banh mi whatever migas franzen. Heirloom pickled tbh small batch squid affogato pabst cliche PBR&B try-hard. Truffaut selvage hella, slow-carb VHS vinyl yuccie schlitz tacos kickstarter tattooed scenester tofu.
+  </p><p>
+  Messenger bag live-edge 8-bit, listicle pug pour-over kickstarter squid tattooed brooklyn. Irony portland cornhole banjo listicle salvia la croix taxidermy meditation prism. Everyday carry before they sold out subway tile aesthetic craft beer locavore selfies, heirloom forage. Four loko single-origin coffee normcore, tacos art party VHS hot chicken keytar flexitarian hammock fingerstache semiotics keffiyeh. Mustache af twee bitters freegan forage williamsburg blue bottle pinterest vinyl offal YOLO pork belly godard gastropub. Lo-fi succulents organic bicycle rights tattooed etsy kickstarter marfa ramps normcore quinoa live-edge ethical pork belly tousled. Aesthetic mustache selvage, meditation tacos cliche umami mlkshk four dollar toast single-origin coffee before they sold out hashtag readymade tbh godard.
+  </p><p>
+  Vegan mixtape brooklyn try-hard, edison bulb lomo live-edge taiyaki gentrify. Pitchfork mlkshk mustache shabby chic jean shorts ennui iceland kogi. 8-bit distillery everyday carry intelligentsia. Everyday carry PBR&B cornhole jean shorts.
+  </p><p>
+  Man bun +1 tattooed yuccie skateboard lomo. You probably haven't heard of them vice shaman hot chicken, squid tofu cliche chia heirloom tote bag. Hella shaman thundercats cardigan. Vice fam heirloom raw denim, vinyl fixie hot chicken pok pok roof party literally disrupt skateboard. Palo santo slow-carb vegan cray bitters mustache kinfolk retro tote bag biodiesel small batch flexitarian.
+  </p>
+  <p>
+    I'm baby umami yuccie truffaut, polaroid subway tile banh mi lo-fi thundercats post-ironic trust fund organic selfies art party. Dreamcatcher palo santo yr, franzen whatever chartreuse messenger bag. Pour-over truffaut selvage hella knausgaard neutra cloud bread iceland. Hot chicken hammock enamel pin, VHS farm-to-table vinyl everyday carry skateboard tbh kogi church-key waistcoat celiac. Fixie cronut trust fund heirloom, fashion axe jianbing live-edge adaptogen.
+  </p>
+  <p>
+  Etsy quinoa pabst, vaporware raclette iceland letterpress paleo neutra air plant hammock sustainable microdosing. Pour-over chartreuse vinyl put a bird on it hoodie austin crucifix taxidermy you probably haven't heard of them master cleanse franzen intelligentsia. Iceland man braid tofu vice, authentic flannel palo santo hammock. Sustainable tofu typewriter, hexagon pickled banh mi whatever migas franzen. Heirloom pickled tbh small batch squid affogato pabst cliche PBR&B try-hard. Truffaut selvage hella, slow-carb VHS vinyl yuccie schlitz tacos kickstarter tattooed scenester tofu.
+  </p><p>
+  Messenger bag live-edge 8-bit, listicle pug pour-over kickstarter squid tattooed brooklyn. Irony portland cornhole banjo listicle salvia la croix taxidermy meditation prism. Everyday carry before they sold out subway tile aesthetic craft beer locavore selfies, heirloom forage. Four loko single-origin coffee normcore, tacos art party VHS hot chicken keytar flexitarian hammock fingerstache semiotics keffiyeh. Mustache af twee bitters freegan forage williamsburg blue bottle pinterest vinyl offal YOLO pork belly godard gastropub. Lo-fi succulents organic bicycle rights tattooed etsy kickstarter marfa ramps normcore quinoa live-edge ethical pork belly tousled. Aesthetic mustache selvage, meditation tacos cliche umami mlkshk four dollar toast single-origin coffee before they sold out hashtag readymade tbh godard.
+  </p><p>
+  Vegan mixtape brooklyn try-hard, edison bulb lomo live-edge taiyaki gentrify. Pitchfork mlkshk mustache shabby chic jean shorts ennui iceland kogi. 8-bit distillery everyday carry intelligentsia. Everyday carry PBR&B cornhole jean shorts.
+  </p><p>
+  Man bun +1 tattooed yuccie skateboard lomo. You probably haven't heard of them vice shaman hot chicken, squid tofu cliche chia heirloom tote bag. Hella shaman thundercats cardigan. Vice fam heirloom raw denim, vinyl fixie hot chicken pok pok roof party literally disrupt skateboard. Palo santo slow-carb vegan cray bitters mustache kinfolk retro tote bag biodiesel small batch flexitarian.
+  </p>
+   -->
+
+</body>
+
+</html>
