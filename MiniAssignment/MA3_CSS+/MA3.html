@@ -24,7 +24,7 @@
       height: 90%;
     }
 
-    .grid {
+    .grid-item {
       background-color: #f2b0a5;
       border: white solid 5px;
     }
@@ -37,10 +37,6 @@
       display: flex;
       align-items: center;
       justify-content: space-around;
-    }
-
-    h1, h2 {
-      margin: 0;
     }
 
     #left-sidebar {
@@ -82,14 +78,15 @@
 
 <body>
   <div class="grid-container">
-    <div class="grid" id="header">
+    <div class="grid-item" id="header">
       <h1>Cindy's Website</h1>
     </div>
-    <div class="grid" id="left-sidebar"></div>
-    <div class="grid" id="main-content">
+    <div class="grid-item" id="left-sidebar"></div>
+    <div class="grid-item" id="main-content">
       <div id='box'></div>
     </div>
-    <div class="grid" id="right-sidebar"></div>
-    <div class="grid" id="footer"></div>
-</div>
+    <div class="grid-item" id="right-sidebar"></div>
+    <div class="grid-item" id="footer"></div>
+  </div>
+</body>
 </html>
