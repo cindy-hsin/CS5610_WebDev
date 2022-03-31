@@ -1,0 +1,12 @@
+Website link: https://moviethemes.net/
+
+Suggestions for improvement:
+
+	1. Colors and Fonts: The unpleasant background color and the overuse of different text colors are so user-“unfriendly” that they even cause users to feel dizzy. It should use a light color in the background, and reduce the number of text colors, to increase user’s willingness to stay on this webpage.
+
+	2. Consistency: Currently, after clicking on the banners of different movies(e.g. "Lord of the Rings” and ”Star Wars” ), users will be directed to pages with different layout, which would lead to user’s confusion on where they're currently at. I suggest that all subpages of different movies should adopt similar layout, and only emphasize the most important difference: the movie name, with eye-catching fonts in contrast to other words in the page. 
+
+	3. Keep Users in Control:
+		1) Fix the “auto-downloading”: Every time this webpage is opened, a midi file would be automatically downloaded, which is very annoying since it’s an operation without my permission, and I have no idea what the file is about. This “auto-downloading” should be cancelled, or, if it’s some necessary content that the web creator would like to share with users, it should offer some clear message stating what’s actually being downloaded.
+
+		2) Add a Nav Bar: Since the “About” & “Advertisement” contents take up the top area of the webpage, users have to take extra effort to get a sense of what operations they can do on this website, by scrolling down the page. To provide a more easily understood user flow, It should add a Nav Bar at the top and separate “About”, “Advertisement(i.e. the message that asks users to purchase from Amazon to support them)”, “Link to Different Movie songs”, “Email/Questions” into different subpages. 
